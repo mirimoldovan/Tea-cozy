@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+  }
+  #logo {
+    padding: 10px;
+    height: 50px;
+    position: fixed;
+  }
+  .links {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .links p {
+    margin-right: 20px;
+    color: seashell;
+  }
+  header {
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    height: 69px;
+    z-index: 10;
+    background: black;
+    top: 0px;
+  }
+  #missionBackground {
+    height: 700px;
+    width: 1200px;
+    padding-top: 70px;
+    margin: 0 40px;
+  }
+  .background-image-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+  }
+  .text-over {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    background: black;
+    align-content: center;
+    text-align: center;
+  }
+  .text-over h2 {
+    height: 20px;
+    margin: 5px;
+  }
+  .text-over h4 {
+    height: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .teaOfTheMonth {
+    width: 1000px;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+  .typesOfTea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .typesOfTea h4 {
+    margin-top: 10px;
+  }
+  .typesOfTea img {
+    height: 200px;
+    width: 300px;
+    margin-right: 25px;
+  }
+  
+  .locations {
+    padding-top: 80px;
+    height: 500px;
+    width: 1200px;
+    background-image: url(images/img-locations-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 40px;
+    margin-left: 20px;
+  }
+  
+  .locations .flex-container .items {
+    background-color: black;
+    width: 300px;
+    display: inline-flex;
+    font-size: 22px;
+    flex-direction: column;
+    margin-right: 40px;
+    height: 300px;
+    opacity: 1;
+  }
+  
+  .items p {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
